@@ -21,7 +21,6 @@ header {
 }
 footer {
 	background-color: #666666;
-    /* float: left; */	
 	border-top-color: #4aaaa5;
 	border-top-style: solid;	
 	border-top-width: 6px;
@@ -415,4 +414,21 @@ container>.navbar-header{
 
 .ptxl {
     padding-top: 54px;
+}
+
+/* Sticky Footer Tutorial*/
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+footer, .push {
+    height: 50px;
 }
