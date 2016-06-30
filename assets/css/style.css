@@ -153,7 +153,31 @@ container>.navbar-header{
 	border-color: #dddddd;
 	border-style: solid;
 }
-
+.two-column {
+    width: 100%;
+}
+.two-column > .img-wrapper {
+    position: relative;
+}
+.img-wrapper h3 {
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 70px;
+    padding-top: 20px;
+    width: 252px;
+}
+.two-column a {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+.two-column img {
+    width: 100%;
+}
 /* Sidebar */
 #sidebar-container {
 	width: 270px;
